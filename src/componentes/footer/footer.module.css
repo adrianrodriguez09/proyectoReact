@@ -1,0 +1,12 @@
+
+.link{
+    color: orange;
+}
+.link:hover{
+    color: black;
+    background-color: rgb(90, 196, 238);
+    border-radius: 5px;
+}
+.ul{
+    border: none;
+}
