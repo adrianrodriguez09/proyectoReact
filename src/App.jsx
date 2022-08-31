@@ -25,6 +25,7 @@ const onAdd = ()=>{
     <Contador stock={stock} initial={initial} onAdd={onAdd}/>
     <Main/>
     <Footer/>
+    
     </>
   )
 }
