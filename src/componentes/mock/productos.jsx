@@ -3,8 +3,8 @@
       "id": 1,
       "nombre": "chaleco",
       "cantidad": 1,
-      "desc": "es una habitacion que cumple con todo y mas.....",
-      "precio": 1200,
+      "desc": "es un chaleco super reforzado y comodo",
+      "precio": 1500,
       "img": "https://res.cloudinary.com/dgb1r2nnn/image/upload/v1661959109/productos/27446c781f3f468e518d6e0fc7cdedb3--schnauzers-sammy_nflvme.jpg"
     },
     {

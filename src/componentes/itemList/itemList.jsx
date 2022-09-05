@@ -8,7 +8,9 @@ const ItemList = ({items})=>{
     {
         items.map((items)=>{
             return(
+                <div className={estilos.contenedor}>
                 <Item items={items}/>
+                </div>
             )
         })
     }
