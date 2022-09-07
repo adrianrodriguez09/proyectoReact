@@ -33,7 +33,7 @@ const onAdd = ()=>{
    
        <Route path='/categorias/:categoriasName'element={<ItemListContainer/>}/>
 
-      <Route path='/'  element={<Contador stock={stock} initial={initial} onAdd={onAdd}/>}    /> 
+      <Route path='/contador'  element={<Contador stock={stock} initial={initial} onAdd={onAdd}/>}    /> 
     </Routes>
 
 

@@ -24,7 +24,7 @@ const Nav = () =>{
                 
                         <Link to="/">Inicio</Link>
                     
-                <Link to="/main"><CardWidjet/></Link>
+                <Link to="/contador"><CardWidjet/></Link>
                     
                    
                 </ul>
