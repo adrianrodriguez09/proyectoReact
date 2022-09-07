@@ -1,12 +1,12 @@
 
 import './App.css';
 import Nav from './componentes/nav/nav'
-import Main from './componentes/main/main';
+
 import Footer from './componentes/footer/footer';
 import ItemListContainer from './componentes/itemListContainer/itemListContainer';
 import Contador from './componentes/contador/contador';
 import ItemDetailContainerm from './componentes/itemDetailContainer/itemdetailcontainer';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 const App = () => {
@@ -20,16 +20,26 @@ const onAdd = ()=>{
   alert("agregaste productos al carrito")
 }
   return (
-    <>
-    <Nav/>
-    <Main/>
-    <ItemListContainer bienvenida={bienvenida}/>
-    <ItemDetailContainerm/>
-    <Contador stock={stock} initial={initial} onAdd={onAdd}/>
    
+    <BrowserRouter>
+    <Nav/>
+    
+
+     <Routes>
+     
+      <Route path="/" element={ <ItemListContainer bienvenida={bienvenida}/>}/>
+      
+      <Route path='/itemdetail/:idProd' element={<ItemDetailContainerm/>}/>
+   
+       <Route path='/categorias/:categoriasName'element={<ItemListContainer/>}/>
+
+      <Route path='/'  element={<Contador stock={stock} initial={initial} onAdd={onAdd}/>}    /> 
+    </Routes>
+
+
     <Footer/>
     
-    </>
+    </BrowserRouter>
   )
 }
 
