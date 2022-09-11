@@ -7,7 +7,7 @@ import ItemListContainer from './componentes/itemListContainer/itemListContainer
 import Contador from './componentes/contador/contador';
 import ItemDetailContainerm from './componentes/itemDetailContainer/itemdetailcontainer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
+import Cart from './componentes/cart/cart';
 
 const App = () => {
 
@@ -33,7 +33,7 @@ const onAdd = ()=>{
    
        <Route path='/categorias/:categoriasName'element={<ItemListContainer/>}/>
 
-      <Route path='/contador'  element={<Contador stock={stock} initial={initial} onAdd={onAdd}/>}    /> 
+      <Route path='/cart' element={<Cart/>}/> 
     </Routes>
 
 
