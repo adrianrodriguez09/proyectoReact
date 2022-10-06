@@ -23,7 +23,7 @@ Finalizar compra completando un formulario (validaciones de campor requerido, @ 
 
 Footer con las redes sociales de contacto. 
 
-[Página en netlify ->](https://mobilem-curso-react.vercel.app/)
+
 
 
 ## librerias utilizadas
