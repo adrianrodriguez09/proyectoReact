@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Cart from './componentes/cart/cart';
 
 import CartProvider from './context/CardContext';
+import FinDeCompra from './componentes/finDeCompra/finDeCompra';
 
 
 const App = () => {
@@ -34,6 +35,8 @@ const App = () => {
        <Route path='/categorias/:categoriasName'element={<ItemListContainer/>}/>
 
       <Route path='/cart' element={<Cart/>}/> 
+
+      <Route  path='/finDeCompra' element={<FinDeCompra/>} />
     </Routes>
 
     </CartProvider>

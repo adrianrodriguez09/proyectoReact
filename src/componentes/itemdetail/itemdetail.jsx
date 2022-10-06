@@ -28,7 +28,7 @@ const agregar = (quantity) =>{
      <img className={estilo.precio} src={data.img} alt="" />
     {
         goToCart
-        ? <Link to='/cart' className={estilo.cart}>ver productos</Link>
+        ? <Link to='/cart' className={estilo.cart}>ver productos en carrito</Link>
         : <Contador initial={1} stock={15} onAdd={agregar}/>
     }
      </div>

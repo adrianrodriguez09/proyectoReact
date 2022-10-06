@@ -8,7 +8,7 @@ import { collection, getDoc, doc } from "firebase/firestore"
 const ItemDetailContainerm = ()=>{
 const {idProd} = useParams();
 
-//const product = productos.find((productos)=>productos.id === Number(idProd))
+
 
 const [data, setData] = useState({})
 
@@ -34,8 +34,9 @@ useEffect(() =>{
 
     return(
         
-            <ItemDetail data={data}/>
-        
+           <>
+            {data ? (<ItemDetail data={data}/>) : (<h2 >Cargando...</h2>)}
+            </>
     )
 }
 
