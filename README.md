@@ -42,3 +42,5 @@ Footer con las redes sociales de contacto.
 -[React-spinners](https://www.npmjs.com/package/react-spinners): Libreria utilizada para mostrar
 animaciones en los tiempos de espera.
 `npm install react-spinners`
+
+GIF.gif
