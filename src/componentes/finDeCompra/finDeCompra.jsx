@@ -1,7 +1,7 @@
 import React from 'react'
 import {  useState } from 'react'
 import { useCartContext } from "../../context/CardContext"
-import Form from '../form/Form'
+import Form from '../Form/Form'
 import estilos from './fin.module.css'
 
 const FinDeCompra = () => {
