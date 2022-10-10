@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MENSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey:"AIzaSyCS-gCGQ-sBjohyTV5T_QZjfaGpHVhP-5k",
+  authDomain: "mundo-mascotas-e7096.firebaseapp.com",
+  projectId: "mundo-mascotas-e7096",
+  storageBucket: "mundo-mascotas-e7096.appspot.com",
+  messagingSenderId: "543667545714",
+  appId:"1:543667545714:web:ffdf1d7e769b0e566e84eb",
 };
 
 
