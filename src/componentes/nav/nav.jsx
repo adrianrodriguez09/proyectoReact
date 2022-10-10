@@ -10,16 +10,16 @@ const Nav = () =>{
                 
                 <ul>
                 <div className={estilos.logo}>
-                 <p>Mundo <b className={estilos.masco}>MASCOTAS</b></p>
+                 <p>Mundo <b className={estilos.masco}>REPUESTOS</b></p>
                  </div>
                 
-                        <Link to="/categorias/perros">Perros</Link>
+                        <Link to="/categorias/motos110">Motos 110</Link>
                     
                 
-                        <Link to="/categorias/gatos">Gatos</Link>
+                        <Link to="/categorias/motos150">motos 150/125</Link>
                     
                 
-                        <Link to="/categorias/peces">peces</Link>
+                        <Link to="/categorias/bicis">bicis</Link>
                     
                 
                         <Link to="/">Inicio</Link>
