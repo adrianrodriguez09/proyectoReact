@@ -15,11 +15,11 @@
 }
 .btnEnviar{
     
-    border-width: 2px;
+    border-width: 3px;
     font-size: 15px;
 }
 .btnEnviar:hover{
-    color: rgb(74, 42, 218);
+    color: rgb(28, 8, 116);
 
 }
 .containerbtn{
